@@ -1,0 +1,124 @@
+.boxes{
+    display: flex;
+    width: 70%;
+    height: auto;
+    justify-content: space-between;
+    
+
+
+
+    .box{
+        width: 48%;
+        height: 454px;
+        display: flex;
+        flex-direction: column;
+
+
+              
+        .img-section{
+            height: 70%;
+            width: 100%;
+       .image{
+            height: 100%;
+            width: 454px;
+            position: absolute;
+            z-index: 1;
+
+
+             img{
+                 width: 100%;
+             }
+        }
+        .arrow{
+            height: 100%;
+            width: 454px;
+            position: relative;
+            z-index: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.822);
+            color: green;
+            cursor: pointer;
+        }
+
+       
+        
+    }
+    .text-box{
+        width: 100%;
+        background-color: #fff;
+        padding: 0px 10px;
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 30%;
+        
+        
+    }
+    &:hover{
+        .image{
+            z-index: 0;
+        }
+        .arrow{
+            z-index: 1;
+        }
+        .text-box{
+            background-color:#cdd5e6;
+        }
+
+    }
+      
+}
+
+
+
+
+
+}
+
+
+
+.future{
+margin-top: 100px;
+width: 100%;
+height: 447px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+.inside-txt{
+    width: 30%;
+    margin-right:  30px;
+
+}
+    button{
+        width: 150px;
+        height: 35px;
+        border: 2px solid green;
+        color: green;
+        font-weight: bold;
+
+    }
+
+
+.inside-img{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inside-image-item{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;   
+}
+
+}
