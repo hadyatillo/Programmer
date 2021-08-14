@@ -95,6 +95,8 @@ nav
     font-size: 66px;
 }
 .travel-text{
+    /* display: flex; */
+    /* align-items: center; */
     justify-content: center;
     text-align: center;
     /* margin: 60px; */
