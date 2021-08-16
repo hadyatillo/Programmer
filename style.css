@@ -8,7 +8,7 @@
 main{
     width: 100%;
     height: 100vh;
-    background: url(/images/sea\ 5.jpg);
+    background: url(images/sea-5.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
